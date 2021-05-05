@@ -13,7 +13,7 @@ mesh = [ "lyon" ]
 # jpeg = [ "image/jpeg" ]
 
 [dependencies]
-good-web-game = { path = "../../../../Sandbox/good-web-game" }
+good-web-game = { git = "https://github.com/eduardonunesp/good-web-game" }
 specs = { version = "0.15.0", features = ["specs-derive"] }
 itertools = "0.9.0"
 nalgebra = { version = "0.19", features = ["mint"] }
